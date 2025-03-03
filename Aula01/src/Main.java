@@ -15,7 +15,7 @@ public class Main {
         celularNovo1.espacoArmazenamento = 128;
         celularNovo1.tamanhoTela = 6.1f;
 
-        System.out.format("Nome: %s\nSistema Operacional: %s\nEspaço Armazenamento: %dGB\nTamanho Tela: %.1f\n\n",celularNovo1.nome,celularNovo1.sistemaOperacional,celularNovo1.espacoArmazenamento,celularNovo1.tamanhoTela);
+        System.out.format("Nome: %s\nSistema Operacional: %s\nEspaço Armazenamento: %dGB\nTamanho Tela: %.1f\n\n", celularNovo1.nome, celularNovo1.sistemaOperacional, celularNovo1.espacoArmazenamento, celularNovo1.tamanhoTela);
 
         Celular celularNovo2 = new Celular();
         celularNovo2.nome = "Samsung Galaxy S23";
@@ -23,6 +23,6 @@ public class Main {
         celularNovo2.espacoArmazenamento = 128;
         celularNovo2.tamanhoTela = 6.1f;
 
-        System.out.format("Nome: %s\nSistema Operacional: %s\nEspaço Armazenamento: %dGB\nTamanho Tela: %.1f",celularNovo2.nome,celularNovo2.sistemaOperacional,celularNovo2.espacoArmazenamento,celularNovo2.tamanhoTela);
+        System.out.format("Nome: %s\nSistema Operacional: %s\nEspaço Armazenamento: %dGB\nTamanho Tela: %.1f", celularNovo2.nome, celularNovo2.sistemaOperacional, celularNovo2.espacoArmazenamento, celularNovo2.tamanhoTela);
     }
 }
